@@ -9,12 +9,13 @@ import RecipeName from "./components/RecipeName";
 export default function App() {
   return (
     <>
-      <RecipeImage />
-      <RecipeName />
-      <RateARecipe rating={4} />
-      <Button saveButton={true} />
-      <AuthorInfo />
-      <IngredientList />
+      <h1>Hello World</h1>
+      {/* <RecipeImage /> */}
+      {/* <RecipeName /> */}
+       <RateARecipe rating={2} />
+      {/* <Button saveButton={true} /> */}
+      {/* <AuthorInfo /> */}
+      {/* <IngredientList /> */}
     </>
   );
 }
